@@ -13,7 +13,7 @@ module.exports.hex2rgb = function(hex, array) {
     for (var i = 0; i < 3; ++i) {
       var value = hex[i];
       if (value.length == 1) value += value;
-      rgb[i] = parseInt(value, 16);
+      rgb.push(parseInt(value, 16));
     }
     return array ? rgb : 'rgb(' + rgb + ')';
   }
