@@ -1,0 +1,37 @@
+{
+  "name": "hexRgb",
+  "description": "A lib transform hex and rgb",
+  "version": "0.0.1",
+  "homepage": "https://github.com/villadora/hexRgb",
+  "main": "./index.js",
+  "author": {
+    "name": "Wei Gao",
+    "email": "jky239@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/villadora/hexRgb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/villadora/hexRgb/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/villadora/hexRgb/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {},
+  "keywords": [],
+  "cortex": {
+    "dependencies": {},
+    "asyncDependencies": {},
+    "devDependencies": {
+      "assert": "~1.0.1"
+    },
+    "scripts": {}
+  }
+}
