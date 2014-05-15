@@ -24,7 +24,9 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
   "keywords": [],
   "cortex": {
     "dependencies": {},
@@ -33,5 +35,8 @@
       "assert": "~1.0.1"
     },
     "scripts": {}
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
   }
 }
